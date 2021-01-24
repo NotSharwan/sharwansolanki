@@ -6,7 +6,7 @@ let tar = document.getElementById("target");let e = document.getElementById("tog
 function active(a){let item = document.querySelectorAll('.active'); item[0].className = 'single'; a.className = 'active';
 document.querySelector("#contact").scrollIntoView({behavior: "smooth"}); e.classList.remove("open"); tar.classList.add("nav-items"); tar.classList.remove("toggeled"); /*nelem.style.backgroundColor='';*/}
 
-let text = ["(~) Noobie", "Programmer .\\n", "StillLearning :/",'CS Undergrad.' ];
+let text = ["(~) Noobie", "Programmer .\\n", "StillLearning :/",'CS Undergrad.' ,'ML Enthusiast'];
 var counter = 1;var elem = document.getElementById("changeText");setInterval(change, 1500);function change(){elem.classList.add('hide');setTimeout(function () {elem.innerHTML = text[counter]; elem.classList.remove('hide'); counter++;if (counter >= text.length) {counter = 0;}}, 500);}
 
 
